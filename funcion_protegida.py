@@ -5,7 +5,7 @@ def run():
 
 def protected(func):
     def wrapper(password):
-        if password == 'platzi':
+        if password == 'Algoritmia':
             return func()
         else:
             print('El password es invalido')
